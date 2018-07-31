@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>First Class</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css" media="screen">
+	<script type="text/javascript" src="myscript.js" defer></script>
+	<style type="text/css">
+		p {
+			background-color: red;
+		}
+	</style>
+	<script type="text/javascript">
+		function clickMe() {
+			alert('function from the head');
+		}
+	</script>
+</head>
+<body>
+	<h1>Javascript is <span style="color:green">awesome</span></h1>
+	<p>Javacript makes the web come alive.</p>
+	<button onclick="clickMe();">Do some magic!</button>
+	<div id="main">puts assigned data her/e</div>
+</body>
+</html>
